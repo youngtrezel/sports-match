@@ -1,0 +1,130 @@
+<div class="block">
+    <h1 class="subtitle centered is-1">Scores History</h1>
+</div>
+<div class="box history-box">
+    <div class="fixed-grid has-4-cols ">
+        <div class="grid">
+            <div class="cell ">
+                <div class="block ">
+                    <div class="box">
+                        <div class="field">
+                            <label class="label">
+                                <h1 class="subtitle is-5">List All Score Records</h1>
+                            </label>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <button class="button" (click)="getAll()">Get Scores</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <form [formGroup]="nameForm" (submit)="getByName()" method="POST">
+                            <div class="field">
+                                <label class="label">
+                                    <h1 class="subtitle is-5">Team Name Search:</h1>
+                                </label>
+                                <div class="control">
+                                    <input class="input" name="NameSearch" type="text" formControlName="NameSearch">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <button class="button" type="submit" [disabled]="nameForm.invalid">Get Scores</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="box">
+                        <form [formGroup]="idForm" (submit)="getById()" method="POST">
+                            <div class="field">
+                                <label class="label">
+                                    <h1 class="subtitle is-5">ID Search:</h1>
+                                </label>
+                                <div class="control">
+                                    <input class="input" name="IdSearch" type="text" formControlName="IdSearch">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <button class="button" type="submit" [disabled]="idForm.invalid">Get Scores</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="cell is-col-span-3 ">
+                @if(unpopulated) {
+                    <div class="box">
+                        <h1 class="subtitle is-5">No such team found.</h1>
+                    </div>
+                    
+                }
+                @if(populated) {
+                    <table class="table display">
+                        <thead>
+                          <tr>
+                            <th>ID</th>
+                            <th>Game Played</th>
+                            <th>Match Date</th>
+                            <th>Home Score</th>
+                            <th>Away Score</th>
+                            <th>Result</th>
+                          </tr>
+                        </thead>
+                        <tfoot>
+                          <tr>
+                            <th>ID</th>
+                            <th>Game Played</th>
+                            <th>Match Date</th>
+                            <th>Home Score</th>
+                            <th>Away Score</th>
+                            <th>Result</th>
+                          </tr>
+                        </tfoot>
+                        <tbody>
+                            @for(record of allRecords; track $index) {
+                                <tr>
+                                    <td>{{record.id}}</td>
+                                    <td>{{record.game}}</td>
+                                    <td>{{record.matchDate | date: 'MMMM d, y'}}</td>
+                                    <td>{{record.homeTeam + " (" + record.homeSets  + ")"}} </td>
+                                    <td>{{record.awayTeam  + " (" + record.awaySets + ")"}}</td>
+                                    <td>{{record.result}}</td>                                   
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="box">
+    <div class="fixed-grid has-6-cols">
+        <div class="grid">
+            
+            <div class="cell">Date Played</div>
+            <div class="cell is-col-span-3">Result</div>
+        </div>
+    </div>
+</div>   
+<div class="box display">
+@for(record of allRecords; track $index) {
+<div class="box">
+    <div class="fixed-grid has-6-cols">
+        <div class="grid">
+            
+            <div class="cell">{{record.matchDate | date: 'MMMM d, y'}}</div>
+            <div class="cell is-col-span-3">{{record.result}}</div>
+
+        </div>
+    </div>
+</div>
+}
+
+
+</div> -->

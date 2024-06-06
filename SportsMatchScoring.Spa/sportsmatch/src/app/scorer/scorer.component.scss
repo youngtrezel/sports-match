@@ -1,0 +1,31 @@
+.for-buttons {
+    min-height: 400px;
+    margin-top: 50px;
+}
+
+.set-display {
+    background: rgb(179, 179, 55);
+    height: 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    line-height: 30px;
+    
+
+    &.green {
+        background : rgb(120, 158, 63);
+        border: white 1px solid;
+    }
+
+    &.red {
+        background: rgb(155, 39, 39);
+    }
+
+    &.yellow {
+        background: rgb(70, 70, 70);
+    }
+}
+
+
+.icon.tick svg {
+    height: 20px;
+}

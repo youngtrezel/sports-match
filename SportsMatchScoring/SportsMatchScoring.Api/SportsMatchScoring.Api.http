@@ -1,0 +1,34 @@
+@SportsMatchScoring.Api_HostAddress = http://localhost:5011
+
+GET {{SportsMatchScoring.Api_HostAddress}}/
+Accept: application/json
+
+###
+
+POST {{SportsMatchScoring.Api_HostAddress}}/api/score/processgame
+Content-Type: application/json
+
+{
+  //GameRequest
+}
+
+###
+
+GET {{SportsMatchScoring.Api_HostAddress}}/api/score/getmatchrecords
+
+###
+
+GET {{SportsMatchScoring.Api_HostAddress}}/api/score/getmatchbyteam?name=string
+
+{
+  name: "Broncos"
+}
+
+###
+
+GET {{SportsMatchScoring.Api_HostAddress}}/api/score/getmatchbyid
+
+ {
+   "id": "58698f80-df10-4f4a-a6a1-98aa16918c9e"
+ }
+###

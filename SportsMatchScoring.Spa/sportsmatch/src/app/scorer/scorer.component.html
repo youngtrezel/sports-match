@@ -1,0 +1,101 @@
+
+<div class="box for-buttons">
+    <div class="columns">
+        <div class="column">
+            <div class="box">
+                 <form [formGroup]="matchForm" (submit)="onSubmit()" method="POST">
+                    <div class="field">
+                        <label class="label"><h1 class="subtitle is-5">Home Name</h1></label>
+                        <div class="control">
+                            <input (change)="updateHomeName($event)" class="input" name="HomeTeamName" type="text" formControlName="HomeTeamName">
+                        </div>
+                        <div class="control notification is-danger" *ngIf="matchForm.get('HomeTeamName')?.errors?.['matchForm'] && matchForm.get('HomeTeamName')?.touched">
+                            <label class="label"> Home name required.</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label"><h1 class="subtitle is-5">Away Name</h1></label>
+                        <div class="control">
+                            <input (change)="updateAwayName($event)" class="input" name="AwayTeamName" type="text" formControlName="AwayTeamName">
+                        </div>
+                        <div class="control notification is-danger" *ngIf="matchForm.get('AwayTeamName')?.errors?.['matchForm'] && matchForm.get('AwayTeamName')?.touched">
+                            <label class="label"> Away name required.</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label"><h1 class="subtitle is-5">Select Game</h1></label>
+                        <div class="control">
+                            <select (change)="updateScoring()" name="Game" class="select spread" formControlName="Game">
+                                @for(game of games; track $index) {
+                                    <option>{{game}}</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="control notification is-danger" *ngIf="matchForm.get('AwayTeamName')?.errors?.['matchForm'] && matchForm.get('AwayTeamName')?.touched">
+                            <label class="label"> Away name required.</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        @if(!namesAdded) {
+                            <label class="label"><h2 [className]="'subtitle is-6 disabled-text'">Please enter team names to start.</h2></label>
+                        } @else {
+                            <label class="label">
+                                <span class="icon tick">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#789e3f" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                                </span>
+                            </label>
+                        }
+                        <button class="button is-dark spread" type="submit" [disabled]="matchForm.invalid || scoreStrings.length == 0" >SUBMIT</button>
+                    </div>
+                </form>
+            </div>          
+        </div>
+        <div class="column">
+            <div class="box centered">
+                <button class="button" (click)="resetScore()"> Reset Score </button>
+                <button class="button" (click)="resetAllScores()"> Reset All Scores </button>
+                <button class="button" (click)="newScoreSet()"> Set Scores </button>
+            </div>
+            <div class="box centered">
+                <button [disabled]="homeTeamName == '' || awayTeamName == ''" class="button" (click)="homeScore()"> Home Score </button>
+                <button [disabled]="homeTeamName == '' || awayTeamName == ''" class="button" (click)="awayScore()"> Away Score </button>
+            </div>
+            <div class="block">
+                <div class="columns">
+                    <div class="column">
+                        <h1 class="subtitle is-5 centered">{{homeTeamName == "" ? 'Home Team' : homeTeamName}}</h1> 
+                    </div>
+                    <div class="column">
+                        <h1 class="subtitle is-5 centered">{{awayTeamName == "" ? 'Away Team' : awayTeamName}}</h1> 
+                    </div>
+                </div>
+                <div class="fixed-grid">
+                    <div class="grid">
+                        @for(sets of scoreSets; track $index){
+                            <div [className]=" sets.Home > sets.Away ? 'green cell set-display' : sets.Away == sets.Home ? 'yellow cell set-display ': 'red cell set-display'"><h2 class="sub-title is-2 centered"><b>{{sets.Home}}</b></h2></div>
+                            <div [className]="sets.Away > sets.Home ? 'green cell set-display' : sets.Home == sets.Away ? 'yellow cell set-display' : 'red cell set-display'"><h2 class="sub-title is-2 centered"><b>{{sets.Away}}</b></h2></div>
+                        }
+                        
+                    </div>
+                  </div>
+            </div>
+            
+        </div>
+        <div class="column">
+            <div class="box">
+                <h1 class="subtitle is-5">Home Score: {{currentScoreIt.Home}}</h1>
+            </div>
+            <div class="box">
+                <h1 class="subtitle is-5">Away Score: {{currentScoreIt.Away}}</h1>
+            </div>
+            <div class="box">
+                <h1 class="subtitle is-5">Sets Played: {{scoreSets.length}}</h1>
+            </div>
+            <div class="box">
+                <label class="label"><h1 class="subtitle is-5 ">Result:</h1></label>
+                <h1 class="subtitle is-6 word-green">{{gameResult}}</h1>
+            </div>
+        </div>
+
+      </div>
+</div>
