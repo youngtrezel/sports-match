@@ -18,7 +18,8 @@ export class MatchService {
   }
 
   getAllMatches() : Observable<any> {
-    return this.http.get('http://localhost:5011/api/score/getmatchrecords').pipe();
+    const headers = new HttpHeaders().append('Content-Type', 'application/json');
+    return this.http.get('http://localhost:5011/api/score/getmatchrecords', { headers }).pipe();
   }
 
   getMatchByTeamName(name: string) : Observable<any> {

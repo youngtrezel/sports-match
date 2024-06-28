@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SportsMatchScoring.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eff93d9dadbc635757be9e20d4b99b8c38e7c658")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e77a881f1ea01544e1520595160127885beddc80")]
 [assembly: System.Reflection.AssemblyProductAttribute("SportsMatchScoring.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SportsMatchScoring.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

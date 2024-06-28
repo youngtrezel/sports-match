@@ -1,10 +1,10 @@
 export class ScoresResponse {
-    id!: string;
-    homeTeam!: string;
-    awayTeam!: string;
-    homeSets!: number;
-    awaySets!: number;
-    matchDate!: Date;
-    game!: string;
-    result!: string;
+    Id!: any;
+    HomeTeam!: string;
+    AwayTeam!: string;
+    HomeSets!: number;
+    AwaySets!: number;
+    MatchDate!: Date;
+    Game!: string;
+    Result!: string;
 }

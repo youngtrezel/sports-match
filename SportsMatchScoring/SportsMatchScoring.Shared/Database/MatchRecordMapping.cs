@@ -14,7 +14,7 @@ namespace SportsMatchScoring.Shared.Database
         {
             return new MatchRecord
             {
-                //Id = Guid.NewGuid(),
+                Id = Guid.NewGuid(),
                 MatchDate = DateTimeOffset.Now,
                 AwaySets = record.AwaySets,
                 HomeSets = record.HomeSets,

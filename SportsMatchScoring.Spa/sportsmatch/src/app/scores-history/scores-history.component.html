@@ -58,7 +58,7 @@
             <div class="cell is-col-span-3 ">
                 @if(unpopulated) {
                     <div class="box">
-                        <h1 class="subtitle is-5">No such team found.</h1>
+                        <h1 class="subtitle is-5">No team(s) found.</h1>
                     </div>
                     
                 }
@@ -66,7 +66,7 @@
                     <table class="table display">
                         <thead>
                           <tr>
-                            <th>ID</th>
+                            <th>Partial ID</th>
                             <th>Game Played</th>
                             <th>Match Date</th>
                             <th>Home Score</th>
@@ -76,7 +76,7 @@
                         </thead>
                         <tfoot>
                           <tr>
-                            <th>ID</th>
+                            <th>Partial ID</th>
                             <th>Game Played</th>
                             <th>Match Date</th>
                             <th>Home Score</th>
@@ -87,12 +87,12 @@
                         <tbody>
                             @for(record of allRecords; track $index) {
                                 <tr>
-                                    <td>{{record.id}}</td>
-                                    <td>{{record.game}}</td>
-                                    <td>{{record.matchDate | date: 'MMMM d, y'}}</td>
-                                    <td>{{record.homeTeam + " (" + record.homeSets  + ")"}} </td>
-                                    <td>{{record.awayTeam  + " (" + record.awaySets + ")"}}</td>
-                                    <td>{{record.result}}</td>                                   
+                                    <td>{{record.Id.toString().substring(0, 6)}}</td>
+                                    <td>{{record.Game}}</td>
+                                    <td>{{record.MatchDate | date: 'MMMM d, y'}}</td>
+                                    <td>{{record.HomeTeam + " (" + record.HomeSets  + ")"}} </td>
+                                    <td>{{record.AwayTeam  + " (" + record.AwaySets + ")"}}</td>
+                                    <td>{{record.Result}}</td>                                   
                                 </tr>
                             }
                         </tbody>

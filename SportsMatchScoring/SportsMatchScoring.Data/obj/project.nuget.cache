@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2bFhfuu/spSO84Vf9Dpssrh12Z8rdP6QK+hDcjqfFzegwyAgKnJRrSkLAv+8yRU2/H94Tr6CdSszi1BRS+G3rg==",
+  "dgSpecHash": "DrgEhxd7bdafd6WX24S6EaH21ZjDUr2O/OqapnMQI5PNWJSRdzr5FOwbg/rfoibid5N6s1sZ7q9vdRM1dyuMrA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Data\\SportsMatchScoring.Data.csproj",
+  "projectFilePath": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Data\\SportsMatchScoring.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wayne\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\wayne\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

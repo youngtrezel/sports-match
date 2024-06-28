@@ -57,6 +57,7 @@
                 <button class="button" (click)="newScoreSet()"> Set Scores </button>
             </div>
             <div class="box centered">
+                <h1 class="subtitle is-6 centered">Press to add a score.</h1>
                 <button [disabled]="homeTeamName == '' || awayTeamName == ''" class="button" (click)="homeScore()"> Home Score </button>
                 <button [disabled]="homeTeamName == '' || awayTeamName == ''" class="button" (click)="awayScore()"> Away Score </button>
             </div>
@@ -83,13 +84,13 @@
         </div>
         <div class="column">
             <div class="box">
-                <h1 class="subtitle is-5">Home Score: {{currentScoreIt.Home}}</h1>
+                <h1 class="subtitle is-5">Home Score: <span [className]=" currentScoreIt.Home > 0 ? 'white-color' : 'none'" >{{currentScoreIt.Home}}</span></h1>
             </div>
             <div class="box">
-                <h1 class="subtitle is-5">Away Score: {{currentScoreIt.Away}}</h1>
+                <h1 class="subtitle is-5">Away Score: <span [className]=" currentScoreIt.Away > 0 ? 'white-color' : 'none'" >{{currentScoreIt.Away}}</span></h1>
             </div>
             <div class="box">
-                <h1 class="subtitle is-5">Sets Played: {{scoreSets.length}}</h1>
+                <h1 class="subtitle is-5">Sets Played: <span [className]=" scoreSets.length > 0 ? 'white-color' : 'none'" >{{scoreSets.length}}</span> </h1>
             </div>
             <div class="box">
                 <label class="label"><h1 class="subtitle is-5 ">Result:</h1></label>

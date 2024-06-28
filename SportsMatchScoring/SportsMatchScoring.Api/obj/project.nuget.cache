@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oMXLbavUm7ql4NotVrRwaLViPR7CzXXQygC8Rr237RMlYYZH1+EFllVX5ccgTBRLNl2oApQvqZ+YnQtDcpeBCA==",
+  "dgSpecHash": "ef+18sybJKtOo7uztrTLib+nwpDKqmm2qTJJnMDXhpBgkNuF4ys/8WL3aIY9XRkXjhTLkPE6aDFqX+Gs2AkxKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Api\\SportsMatchScoring.Api.csproj",
+  "projectFilePath": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Api\\SportsMatchScoring.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wayne\\.nuget\\packages\\antlr\\3.4.1.9004\\antlr.3.4.1.9004.nupkg.sha512",
     "C:\\Users\\wayne\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

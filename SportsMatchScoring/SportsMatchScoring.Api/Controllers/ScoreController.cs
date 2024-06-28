@@ -1,7 +1,4 @@
-﻿using Azure.Core;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using SportsMatchScoring.Api.Handlers;
+﻿using Microsoft.AspNetCore.Mvc;
 using SportsMatchScoring.Api.Interfaces;
 using SportsMatchScoring.Repository.Interfaces;
 using SportsMatchScoring.Shared.Models;
@@ -25,7 +22,7 @@ namespace SportsMatchScoring.Api.Controllers
 
         [HttpPost]
         [Route("processgame")]
-        public ActionResult<string> ProcessGame([FromBody] GameRequest gameRequest)
+        public async Task<ActionResult<string>> ProcessGame([FromBody] GameRequest gameRequest)
         {
             _gameHandler.SetupGame(gameRequest);
             var gameResults = _gameHandler.GetResultsMessage();
@@ -47,26 +44,42 @@ namespace SportsMatchScoring.Api.Controllers
 
         [HttpGet]
         [Route("getmatchrecords")]
-        public ActionResult<IEnumerable<MatchRecord>> GetMatchRecords()
+        public async Task<ActionResult<IEnumerable<MatchRecord>>> GetMatchRecords()
         {
-            var result = _matchRecordRepository.GetAllMatchRecords();
-            return Ok(result);
+            var result = await _matchRecordRepository.GetAllMatchRecords();
+            return Ok(JsonSerializer.Serialize(result));
         }
 
         [HttpGet]
         [Route("getmatchbyid")]
-        public ActionResult<IEnumerable<MatchRecord>> GetMatchById(int Id)
+        public async Task<ActionResult<IEnumerable<MatchRecord>>> GetMatchById(Guid Id)
         {
-            var result = _matchRecordRepository.GetMatchRecordById(Id);         
-            return Ok(result);
+            var result = await _matchRecordRepository.GetMatchRecordById(Id);         
+            return Ok(JsonSerializer.Serialize(result));
         }
 
         [HttpGet]
         [Route("getmatchbyteam")]
-        public ActionResult<IEnumerable<MatchRecord>> GetMatchByTeam(string name)
+        public async Task<ActionResult<IEnumerable<MatchRecord>>> GetMatchByTeam(string name)
         {
-            var result = _matchRecordRepository.GetMatchRecordByTeamName(name);
-            return Ok(result);
+            var result = await _matchRecordRepository.GetMatchRecordByTeamName(name);
+            return Ok(JsonSerializer.Serialize(result));
+        }
+
+        [HttpDelete]
+        [Route("deletematch")]
+        public async Task<ActionResult> DeleteMatchRecord(Guid id)
+        {
+            var result = await _matchRecordRepository.GetMatchRecordById(id);
+            if(result == null)
+            {
+                return BadRequest();
+            }
+            else
+            {
+                await _matchRecordRepository.DeleteMatchRecord(id);
+                return Ok();
+            }           
         }
     }
 }

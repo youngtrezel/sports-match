@@ -16,3 +16,39 @@ C:\Users\wayne\source\repos\Applications\SportsMatchApplication\SportsMatchScori
 C:\Users\wayne\source\repos\Applications\SportsMatchApplication\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\refint\SportsMatchScoring.Repository.dll
 C:\Users\wayne\source\repos\Applications\SportsMatchApplication\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.pdb
 C:\Users\wayne\source\repos\Applications\SportsMatchApplication\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\ref\SportsMatchScoring.Repository.dll
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\bin\Debug\net8.0\SportsMatchScoring.Repository.deps.json
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\bin\Debug\net8.0\SportsMatchScoring.Repository.dll
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\bin\Debug\net8.0\SportsMatchScoring.Repository.pdb
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\bin\Debug\net8.0\SportsMatchScoring.Data.dll
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\bin\Debug\net8.0\SportsMatchScoring.Shared.dll
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\bin\Debug\net8.0\SportsMatchScoring.Data.pdb
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\bin\Debug\net8.0\SportsMatchScoring.Shared.pdb
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.csproj.AssemblyReference.cache
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.AssemblyInfoInputs.cache
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.AssemblyInfo.cs
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.csproj.CoreCompileInputs.cache
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.sourcelink.json
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMa.71DDAFD6.Up2Date
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.dll
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\refint\SportsMatchScoring.Repository.dll
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.pdb
+C:\Users\wayne\source\repos\Applications\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\ref\SportsMatchScoring.Repository.dll
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\bin\Debug\net8.0\SportsMatchScoring.Repository.deps.json
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\bin\Debug\net8.0\SportsMatchScoring.Repository.dll
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\bin\Debug\net8.0\SportsMatchScoring.Repository.pdb
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\bin\Debug\net8.0\SportsMatchScoring.Data.dll
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\bin\Debug\net8.0\SportsMatchScoring.Shared.dll
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\bin\Debug\net8.0\SportsMatchScoring.Data.pdb
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\bin\Debug\net8.0\SportsMatchScoring.Shared.pdb
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.csproj.AssemblyReference.cache
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.AssemblyInfoInputs.cache
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.AssemblyInfo.cs
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.csproj.CoreCompileInputs.cache
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.sourcelink.json
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMa.71DDAFD6.Up2Date
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.dll
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\refint\SportsMatchScoring.Repository.dll
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\SportsMatchScoring.Repository.pdb
+C:\Users\wayne\source\repos\Applications\Sports Match Project\SportsMatch\SportsMatchScoring\SportsMatchScoring.Repository\obj\Debug\net8.0\ref\SportsMatchScoring.Repository.dll

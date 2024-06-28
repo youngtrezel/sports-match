@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Data\\SportsMatchScoring.Data.csproj": {}
+    "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Data\\SportsMatchScoring.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Data\\SportsMatchScoring.Data.csproj": {
+    "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Data\\SportsMatchScoring.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Data\\SportsMatchScoring.Data.csproj",
+        "projectUniqueName": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Data\\SportsMatchScoring.Data.csproj",
         "projectName": "SportsMatchScoring.Data",
-        "projectPath": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Data\\SportsMatchScoring.Data.csproj",
+        "projectPath": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Data\\SportsMatchScoring.Data.csproj",
         "packagesPath": "C:\\Users\\wayne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Data\\obj\\",
+        "outputPath": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj": {
-                "projectPath": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj"
+              "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj": {
+                "projectPath": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj": {
+    "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj",
         "projectName": "SportsMatchScoring.Shared",
-        "projectPath": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj",
+        "projectPath": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj",
         "packagesPath": "C:\\Users\\wayne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\obj\\",
+        "outputPath": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

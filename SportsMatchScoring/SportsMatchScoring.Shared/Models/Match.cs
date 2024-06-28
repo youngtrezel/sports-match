@@ -9,7 +9,7 @@ namespace SportsMatchScoring.Shared.Models
 {
     public class Match
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public Games Game { get; set; }
         public Team? HomeTeam { get; set; }
         public  Team? AwayTeam { get; set; }

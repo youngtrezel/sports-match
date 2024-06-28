@@ -1,19 +1,14 @@
-using Microsoft.AspNetCore.DataProtection.Repositories;
 using Microsoft.EntityFrameworkCore;
 using SportsMatchScoring.Api.Handlers;
 using SportsMatchScoring.Api.Interfaces;
 using SportsMatchScoring.Data;
 using SportsMatchScoring.Repository;
 using SportsMatchScoring.Repository.Interfaces;
-using SportsMatchScoring.Shared.Interfaces;
-using SportsMatchScoring.Shared.Services;
 
 var builder = WebApplication.CreateBuilder(args);
  
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -47,3 +42,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+// For integration testing
+public partial class Program { }

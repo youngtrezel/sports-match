@@ -33,17 +33,27 @@ export class ScoresHistoryComponent {
     this.idForm = this.formBuilder.group({
       IdSearch: new FormControl((''), [Validators.required])
     })
-
+    this.populated = false;
+    this.unpopulated = false;
   }
 
   get nameSearch(): any { return this.nameForm.get('NameSearch'); }
   get idSearch(): any { return this.idForm.get('IdSearch'); }
 
   getAll() {
+    this.allRecords = [];
     this.matchService.getAllMatches().subscribe({
       next: (data) => {
-        this.populated = true;
-        this.allRecords = data;
+        
+        if(data.length > 0) {
+          this.allRecords = data;
+          this.unpopulated = false;
+          this.populated = true;
+        } else {
+          this.unpopulated = true;
+          this.populated = false;
+        }
+         
       },
       error: err => console.log(err)
     })
@@ -60,18 +70,18 @@ export class ScoresHistoryComponent {
     this.matchService.getMatchByTeamName(name).subscribe({
       next: (data) => {
 
-        if(data.length == 0) {
-          this.unpopulated = true;
-        } else {
+        if(data.length > 0) {
+          this.allRecords = data;
           this.unpopulated = false;
           this.populated = true;
-          this.allRecords = data;
+          
+        } else {
+          this.unpopulated = true;
+          this.populated = false;
         }
         
       },
-      error: err => {
-        
-      }
+      error: err => console.log(err)
     })
 
     this.clearfields();
@@ -82,18 +92,17 @@ export class ScoresHistoryComponent {
     this.allRecords = [];
     this.matchService.getMatchById(id).subscribe({
       next: (data) => {       
-        if(data.length == 0) {
-          this.unpopulated = true;
-        } else {
+
+        if(data.length > 0) {
+          this.allRecords = data;
           this.unpopulated = false;
           this.populated = true;
-          this.allRecords = data;
+        } else {         
+          this.unpopulated = true;  
+          this.populated = false;      
         }
       },
-      error: err => {
-        
-      }
-
+      error: err => console.log(err)
     })
 
     this.clearfields();

@@ -1,69 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\",
+  "WorkspaceRootPath": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Data\\Migrations\\20240606025150_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SportsMatchScoring.Data\\Migrations\\20240606025150_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{416B7DB8-BAD7-4DE4-AE3E-3F6BAE6B5BC0}|SportsMatchScoring.Api\\SportsMatchScoring.Api.csproj|c:\\users\\wayne\\source\\repos\\applications\\sportsmatchapplication\\sportsmatchscoring\\sportsmatchscoring.api\\controllers\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{416B7DB8-BAD7-4DE4-AE3E-3F6BAE6B5BC0}|SportsMatchScoring.Api\\SportsMatchScoring.Api.csproj|c:\\users\\wayne\\source\\repos\\applications\\sports match project\\sportsmatch\\sportsmatchscoring\\sportsmatchscoring.api\\controllers\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{416B7DB8-BAD7-4DE4-AE3E-3F6BAE6B5BC0}|SportsMatchScoring.Api\\SportsMatchScoring.Api.csproj|solutionrelative:sportsmatchscoring.api\\controllers\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C3D1A7E-805C-4AF3-BDB2-9E036F17D3D5}|SportsMatchScoring.Repository\\SportsMatchScoring.Repository.csproj|c:\\users\\wayne\\source\\repos\\applications\\sportsmatchapplication\\sportsmatchscoring\\sportsmatchscoring.repository\\interfaces\\imatchrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C3D1A7E-805C-4AF3-BDB2-9E036F17D3D5}|SportsMatchScoring.Repository\\SportsMatchScoring.Repository.csproj|solutionrelative:sportsmatchscoring.repository\\interfaces\\imatchrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C3D1A7E-805C-4AF3-BDB2-9E036F17D3D5}|SportsMatchScoring.Repository\\SportsMatchScoring.Repository.csproj|c:\\users\\wayne\\source\\repos\\applications\\sportsmatchapplication\\sportsmatchscoring\\sportsmatchscoring.repository\\matchrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C3D1A7E-805C-4AF3-BDB2-9E036F17D3D5}|SportsMatchScoring.Repository\\SportsMatchScoring.Repository.csproj|solutionrelative:sportsmatchscoring.repository\\matchrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1160335F-F643-4EB6-A4B6-46B1E30257A8}|SportsMatchScoring.Tests\\SportsMatchScoring.Tests.csproj|c:\\users\\wayne\\source\\repos\\applications\\sportsmatchapplication\\sportsmatchscoring\\sportsmatchscoring.tests\\shared\\matchresultmappertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1160335F-F643-4EB6-A4B6-46B1E30257A8}|SportsMatchScoring.Tests\\SportsMatchScoring.Tests.csproj|solutionrelative:sportsmatchscoring.tests\\shared\\matchresultmappertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8F4D979-3D67-4C86-BB7F-6C438E1FC005}|SportsMatchScoring.Data\\SportsMatchScoring.Data.csproj|c:\\users\\wayne\\source\\repos\\applications\\sportsmatchapplication\\sportsmatchscoring\\sportsmatchscoring.data\\sportsmatchcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8F4D979-3D67-4C86-BB7F-6C438E1FC005}|SportsMatchScoring.Data\\SportsMatchScoring.Data.csproj|solutionrelative:sportsmatchscoring.data\\sportsmatchcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|c:\\users\\wayne\\source\\repos\\applications\\sportsmatchapplication\\sportsmatchscoring\\sportsmatchscoring.shared\\models\\matchrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|solutionrelative:sportsmatchscoring.shared\\models\\matchrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{416B7DB8-BAD7-4DE4-AE3E-3F6BAE6B5BC0}|SportsMatchScoring.Api\\SportsMatchScoring.Api.csproj|c:\\users\\wayne\\source\\repos\\applications\\sportsmatchapplication\\sportsmatchscoring\\sportsmatchscoring.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{416B7DB8-BAD7-4DE4-AE3E-3F6BAE6B5BC0}|SportsMatchScoring.Api\\SportsMatchScoring.Api.csproj|solutionrelative:sportsmatchscoring.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|c:\\users\\wayne\\source\\repos\\applications\\sportsmatchapplication\\sportsmatchscoring\\sportsmatchscoring.shared\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|solutionrelative:sportsmatchscoring.shared\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|c:\\users\\wayne\\source\\repos\\applications\\sportsmatchapplication\\sportsmatchscoring\\sportsmatchscoring.shared\\models\\sport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|solutionrelative:sportsmatchscoring.shared\\models\\sport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|c:\\users\\wayne\\source\\repos\\applications\\sportsmatchapplication\\sportsmatchscoring\\sportsmatchscoring.shared\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|solutionrelative:sportsmatchscoring.shared\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|c:\\users\\wayne\\source\\repos\\applications\\sportsmatchapplication\\sportsmatchscoring\\sportsmatchscoring.shared\\interfaces\\isportsgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|solutionrelative:sportsmatchscoring.shared\\interfaces\\isportsgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|c:\\users\\wayne\\source\\repos\\applications\\sportsmatchapplication\\sportsmatchscoring\\sportsmatchscoring.shared\\database\\matchrecordmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|c:\\users\\wayne\\source\\repos\\applications\\sports match project\\sportsmatch\\sportsmatchscoring\\sportsmatchscoring.shared\\database\\matchrecordmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|solutionrelative:sportsmatchscoring.shared\\database\\matchrecordmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|c:\\users\\wayne\\source\\repos\\applications\\sportsmatchapplication\\sportsmatchscoring\\sportsmatchscoring.shared\\models\\dbmodels\\dbmatchrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|solutionrelative:sportsmatchscoring.shared\\models\\dbmodels\\dbmatchrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|c:\\users\\wayne\\source\\repos\\applications\\sportsmatchapplication\\sportsmatchscoring\\sportsmatchscoring.shared\\models\\matchresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|solutionrelative:sportsmatchscoring.shared\\models\\matchresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C3D1A7E-805C-4AF3-BDB2-9E036F17D3D5}|SportsMatchScoring.Repository\\SportsMatchScoring.Repository.csproj|c:\\users\\wayne\\source\\repos\\applications\\sports match project\\sportsmatch\\sportsmatchscoring\\sportsmatchscoring.repository\\matchrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3D1A7E-805C-4AF3-BDB2-9E036F17D3D5}|SportsMatchScoring.Repository\\SportsMatchScoring.Repository.csproj|solutionrelative:sportsmatchscoring.repository\\matchrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/HOT_SQLEXPRESS/ScoresDb/True/SqlTable/dbo.MatchRecords.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416B7DB8-BAD7-4DE4-AE3E-3F6BAE6B5BC0}|SportsMatchScoring.Api\\SportsMatchScoring.Api.csproj|c:\\users\\wayne\\source\\repos\\applications\\sports match project\\sportsmatch\\sportsmatchscoring\\sportsmatchscoring.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416B7DB8-BAD7-4DE4-AE3E-3F6BAE6B5BC0}|SportsMatchScoring.Api\\SportsMatchScoring.Api.csproj|solutionrelative:sportsmatchscoring.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3D1A7E-805C-4AF3-BDB2-9E036F17D3D5}|SportsMatchScoring.Repository\\SportsMatchScoring.Repository.csproj|c:\\users\\wayne\\source\\repos\\applications\\sports match project\\sportsmatch\\sportsmatchscoring\\sportsmatchscoring.repository\\interfaces\\imatchrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3D1A7E-805C-4AF3-BDB2-9E036F17D3D5}|SportsMatchScoring.Repository\\SportsMatchScoring.Repository.csproj|solutionrelative:sportsmatchscoring.repository\\interfaces\\imatchrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8F4D979-3D67-4C86-BB7F-6C438E1FC005}|SportsMatchScoring.Data\\SportsMatchScoring.Data.csproj|c:\\users\\wayne\\source\\repos\\applications\\sports match project\\sportsmatch\\sportsmatchscoring\\sportsmatchscoring.data\\sportsmatchcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F4D979-3D67-4C86-BB7F-6C438E1FC005}|SportsMatchScoring.Data\\SportsMatchScoring.Data.csproj|solutionrelative:sportsmatchscoring.data\\sportsmatchcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|c:\\users\\wayne\\source\\repos\\applications\\sports match project\\sportsmatch\\sportsmatchscoring\\sportsmatchscoring.shared\\models\\matchrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0D6DBE-3593-41B2-9386-698A971A6227}|SportsMatchScoring.Shared\\SportsMatchScoring.Shared.csproj|solutionrelative:sportsmatchscoring.shared\\models\\matchrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416B7DB8-BAD7-4DE4-AE3E-3F6BAE6B5BC0}|SportsMatchScoring.Api\\SportsMatchScoring.Api.csproj|c:\\users\\wayne\\source\\repos\\applications\\sports match project\\sportsmatch\\sportsmatchscoring\\sportsmatchscoring.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{416B7DB8-BAD7-4DE4-AE3E-3F6BAE6B5BC0}|SportsMatchScoring.Api\\SportsMatchScoring.Api.csproj|solutionrelative:sportsmatchscoring.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{416B7DB8-BAD7-4DE4-AE3E-3F6BAE6B5BC0}|SportsMatchScoring.Api\\SportsMatchScoring.Api.csproj|c:\\users\\wayne\\source\\repos\\applications\\sports match project\\sportsmatch\\sportsmatchscoring\\sportsmatchscoring.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{416B7DB8-BAD7-4DE4-AE3E-3F6BAE6B5BC0}|SportsMatchScoring.Api\\SportsMatchScoring.Api.csproj|solutionrelative:sportsmatchscoring.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -72,87 +48,9 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 740,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 1021,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240606025150_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Data\\Migrations\\20240606025150_InitialCreate.cs",
-              "RelativeDocumentMoniker": "SportsMatchScoring.Data\\Migrations\\20240606025150_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Data\\Migrations\\20240606025150_InitialCreate.cs",
-              "RelativeToolTip": "SportsMatchScoring.Data\\Migrations\\20240606025150_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T02:51:50.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MatchResultMapperTests.cs",
-              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Tests\\Shared\\MatchResultMapperTests.cs",
-              "RelativeDocumentMoniker": "SportsMatchScoring.Tests\\Shared\\MatchResultMapperTests.cs",
-              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Tests\\Shared\\MatchResultMapperTests.cs",
-              "RelativeToolTip": "SportsMatchScoring.Tests\\Shared\\MatchResultMapperTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIEAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T02:48:54.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SportsMatchContext.cs",
-              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Data\\SportsMatchContext.cs",
-              "RelativeDocumentMoniker": "SportsMatchScoring.Data\\SportsMatchContext.cs",
-              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Data\\SportsMatchContext.cs",
-              "RelativeToolTip": "SportsMatchScoring.Data\\SportsMatchContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxMAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T02:37:35.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Api\\Program.cs",
-              "RelativeDocumentMoniker": "SportsMatchScoring.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Api\\Program.cs",
-              "RelativeToolTip": "SportsMatchScoring.Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T02:37:26.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Team.cs",
-              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\Models\\Team.cs",
-              "RelativeDocumentMoniker": "SportsMatchScoring.Shared\\Models\\Team.cs",
-              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\Models\\Team.cs",
-              "RelativeToolTip": "SportsMatchScoring.Shared\\Models\\Team.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T02:36:43.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Sport.cs",
-              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\Models\\Sport.cs",
-              "RelativeDocumentMoniker": "SportsMatchScoring.Shared\\Models\\Sport.cs",
-              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\Models\\Sport.cs",
-              "RelativeToolTip": "SportsMatchScoring.Shared\\Models\\Sport.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T02:36:30.586Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -167,139 +65,136 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MatchRecord.cs",
-              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\Models\\MatchRecord.cs",
-              "RelativeDocumentMoniker": "SportsMatchScoring.Shared\\Models\\MatchRecord.cs",
-              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\Models\\MatchRecord.cs",
-              "RelativeToolTip": "SportsMatchScoring.Shared\\Models\\MatchRecord.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvw0AAAAMAAAA",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SportsMatchScoring.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Api\\Program.cs",
+              "RelativeToolTip": "SportsMatchScoring.Api\\Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAACEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T02:33:18.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ScoreController.cs",
-              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Api\\Controllers\\ScoreController.cs",
-              "RelativeDocumentMoniker": "SportsMatchScoring.Api\\Controllers\\ScoreController.cs",
-              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Api\\Controllers\\ScoreController.cs",
-              "RelativeToolTip": "SportsMatchScoring.Api\\Controllers\\ScoreController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T03:58:54.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Match.cs",
-              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\Models\\Match.cs",
-              "RelativeDocumentMoniker": "SportsMatchScoring.Shared\\Models\\Match.cs",
-              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\Models\\Match.cs",
-              "RelativeToolTip": "SportsMatchScoring.Shared\\Models\\Match.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T02:36:22.812Z",
+              "WhenOpened": "2024-06-27T20:23:55.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MatchRecordRepository.cs",
-              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Repository\\MatchRecordRepository.cs",
-              "RelativeDocumentMoniker": "SportsMatchScoring.Repository\\MatchRecordRepository.cs",
-              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Repository\\MatchRecordRepository.cs",
-              "RelativeToolTip": "SportsMatchScoring.Repository\\MatchRecordRepository.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAUwAgAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T04:17:36.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IMatchRecordRepository.cs",
-              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Repository\\Interfaces\\IMatchRecordRepository.cs",
-              "RelativeDocumentMoniker": "SportsMatchScoring.Repository\\Interfaces\\IMatchRecordRepository.cs",
-              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Repository\\Interfaces\\IMatchRecordRepository.cs",
-              "RelativeToolTip": "SportsMatchScoring.Repository\\Interfaces\\IMatchRecordRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T04:17:53.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ISportsGame.cs",
-              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\Interfaces\\ISportsGame.cs",
-              "RelativeDocumentMoniker": "SportsMatchScoring.Shared\\Interfaces\\ISportsGame.cs",
-              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\Interfaces\\ISportsGame.cs",
-              "RelativeToolTip": "SportsMatchScoring.Shared\\Interfaces\\ISportsGame.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T02:36:13.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MatchRecordMapping.cs",
-              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\Database\\MatchRecordMapping.cs",
-              "RelativeDocumentMoniker": "SportsMatchScoring.Shared\\Database\\MatchRecordMapping.cs",
-              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\Database\\MatchRecordMapping.cs",
-              "RelativeToolTip": "SportsMatchScoring.Shared\\Database\\MatchRecordMapping.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T02:35:52.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DbMatchRecord.cs",
-              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\Models\\DbModels\\DbMatchRecord.cs",
-              "RelativeDocumentMoniker": "SportsMatchScoring.Shared\\Models\\DbModels\\DbMatchRecord.cs",
-              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\Models\\DbModels\\DbMatchRecord.cs",
-              "RelativeToolTip": "SportsMatchScoring.Shared\\Models\\DbModels\\DbMatchRecord.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T02:33:35.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MatchResult.cs",
-              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\Models\\MatchResult.cs",
-              "RelativeDocumentMoniker": "SportsMatchScoring.Shared\\Models\\MatchResult.cs",
-              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\SportsMatchApplication\\SportsMatchScoring\\SportsMatchScoring.Shared\\Models\\MatchResult.cs",
-              "RelativeToolTip": "SportsMatchScoring.Shared\\Models\\MatchResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T02:33:30.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "dbo.MatchRecords [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/HOT_SQLEXPRESS/ScoresDb/True/SqlTable/dbo.MatchRecords.sql",
               "ToolTip": "dbo.MatchRecords [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-29T03:51:06.364Z"
+              "WhenOpened": "2024-06-27T20:10:29.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MatchRecordMapping.cs",
+              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Shared\\Database\\MatchRecordMapping.cs",
+              "RelativeDocumentMoniker": "SportsMatchScoring.Shared\\Database\\MatchRecordMapping.cs",
+              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Shared\\Database\\MatchRecordMapping.cs",
+              "RelativeToolTip": "SportsMatchScoring.Shared\\Database\\MatchRecordMapping.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T19:22:51.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MatchRecord.cs",
+              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Shared\\Models\\MatchRecord.cs",
+              "RelativeDocumentMoniker": "SportsMatchScoring.Shared\\Models\\MatchRecord.cs",
+              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Shared\\Models\\MatchRecord.cs",
+              "RelativeToolTip": "SportsMatchScoring.Shared\\Models\\MatchRecord.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T19:27:50.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SportsMatchContext.cs",
+              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Data\\SportsMatchContext.cs",
+              "RelativeDocumentMoniker": "SportsMatchScoring.Data\\SportsMatchContext.cs",
+              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Data\\SportsMatchContext.cs",
+              "RelativeToolTip": "SportsMatchScoring.Data\\SportsMatchContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T19:28:23.253Z"
             }
           ]
         },
         {
-          "DockedWidth": 404,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 927,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MatchRecordRepository.cs",
+              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Repository\\MatchRecordRepository.cs",
+              "RelativeDocumentMoniker": "SportsMatchScoring.Repository\\MatchRecordRepository.cs",
+              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Repository\\MatchRecordRepository.cs",
+              "RelativeToolTip": "SportsMatchScoring.Repository\\MatchRecordRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAIwCcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T02:27:00.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMatchRecordRepository.cs",
+              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Repository\\Interfaces\\IMatchRecordRepository.cs",
+              "RelativeDocumentMoniker": "SportsMatchScoring.Repository\\Interfaces\\IMatchRecordRepository.cs",
+              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Repository\\Interfaces\\IMatchRecordRepository.cs",
+              "RelativeToolTip": "SportsMatchScoring.Repository\\Interfaces\\IMatchRecordRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T02:26:43.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "SportsMatchScoring.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Api\\appsettings.json",
+              "RelativeToolTip": "SportsMatchScoring.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-27T19:08:10.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScoreController.cs",
+              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Api\\Controllers\\ScoreController.cs",
+              "RelativeDocumentMoniker": "SportsMatchScoring.Api\\Controllers\\ScoreController.cs",
+              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Api\\Controllers\\ScoreController.cs",
+              "RelativeToolTip": "SportsMatchScoring.Api\\Controllers\\ScoreController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAMwDwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T02:36:41.628Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SportsMatchScoring.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\wayne\\source\\repos\\Applications\\Sports Match Project\\SportsMatch\\SportsMatchScoring\\SportsMatchScoring.Api\\appsettings.Development.json",
+              "RelativeToolTip": "SportsMatchScoring.Api\\appsettings.Development.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-27T20:28:43.974Z"
             }
           ]
         }
